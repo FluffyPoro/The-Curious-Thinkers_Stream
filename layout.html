@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stream Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="image/Navlogo.jpg" alt="NavLogo"></a>
+      <div class="navigation">
+        <ul class="menu">
+          <i class="fa-solid fa-xmark close-btn"></i>
+          <li class="menu-item"><a href="plan.html">Home</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#"
+              >Brainstorm <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="5whys.html">5 Whys</a></li>
+              <li class="sub-item"><a href="obs.html">OBS Desc.</a></li>
+              <li class="sub-item"><a href="layout.html">Stream Layout</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#"
+              >About <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="Outline.html">StreamOutline</a></li>
+              <li class="sub-item"><a href="group.html">Members</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars menu-btn"></i>
+    </header>
+    <div class="scrollable-container">
+      <div class="StreamLayout">
+        <h1 class="TitleLayout">Stream Layout</h1>
+        <div class="StartingScene">
+          <h1>Starting Scene</h1>
+          <video src="vids/Starting Soon (Animation).mp4" autoplay muted loop></video>
+        </div>
+        <div class="StreamOverlay">
+          <h1>Stream Overlay</h1>
+          <img src="image/Stream Overlay (Main Screen).png" alt="Layoutimage">
+        </div>
+        <div class="EndingScene">
+          <h1>Ending Scene</h1>
+          <video src="vids/TYFW (Animation).mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
